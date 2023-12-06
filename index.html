@@ -1,0 +1,153 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>My portfolio website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+  <body>
+      <nav id="nav">
+          <h3><a>RAVI TEJA</a></h3>
+          <ul style="font-weight: 600;">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">My Skills</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+      </nav>
+
+      <section id="home" >
+          <div class="about-content">
+              <div class="about-text">
+                  <p style="color: rgb(127, 117, 117);">HELLO</p>
+                  <h2 style="text-align: left;">I'm <span><h1 style="display: inline; color: #fe1e52;">Ravi Teja</h1></span></h2>
+                  <h2 style="text-align: left;"><span style="color: #fe1e52;">a </span><span><h1 style="display: inline;" id="typed-output"></h1></span> </h2>
+                  <p>Welcome to my personal portfolio website! </p>
+                  <div class="button-container">
+                    <button class="submit-button" onclick="redirect()">Message me</button>
+                  </div>
+              </div>
+              <div class="about-image">
+                <img src="image1.jpg" alt="Your Image" height="400px">
+              </div>
+          </div>
+      </section>
+      <div class="content1" id="about">
+          <div class="hidden-element">
+            <img src="about-me.jpg" alt="" height="271px" width="200px" style="border-radius: 25px;" >
+          </div>
+          <div class="hidden-element">
+            <div>
+              <h1>About Me</h1>
+            </div>
+            <div>
+              <p style="margin-bottom: 0; color: #bd9da5;"><i class="fa-solid fa-quote-left"></i> I'm Ravi, a skilled and creative web developer with a passion for creating beautiful, responsive, and user-friendly websites. My love for coding and design has driven me to work on a variety of projects, I'm dedicated to delivering top-notch solutions that meet my clients' needs and exceed their expectations, Passionate and detail-oriented web developer with a love for crafting elegant and functional websites. I thrive on turning ideas into digital experiences and enjoy the challenge of solving complex problems through code. <i class="fa-solid fa-quote-right"></i></p>
+            </div>
+          </div>        
+      </div>
+      <div id="projects" >
+        <div class="hidden-element">
+          <h2>MY PROJECTS</h2>
+        </div>
+        <div class="card web1 hidden-element" style="background-color: #1a1a1a; color: white;" onclick="redirectToWebsite()">
+          <img src="https://images.unsplash.com/photo-1487611459768-bd414656ea10?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHdlYiUyMGRldmVsb3BtZW50JTIwaW1hZ2VzfGVufDB8fDB8fHww" alt="Card Image 1">
+          <div class="card-content">
+            <h3>10000 coders website clone</h3>
+            <p>Some text content for card 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button type="button" class="btn btn-outline-danger">Demo</button>
+          </div>
+        </div>
+        
+        <div class="card web2 hidden-element" style="background-color: #1a1a1a; color: white;">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdlYiUyMGRldmVsb3BtZW50JTIwaW1hZ2VzfGVufDB8fDB8fHww" alt="Card Image 2">
+          <div class="card-content">
+            <h3>Tin Dog website clone</h3>
+            <p>Some text content for card 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button type="button" class="btn btn-outline-danger">Demo</button>
+          </div>
+        </div>
+        
+        <div class="card web3 hidden-element" style="background-color: #1a1a1a; color: white;">
+          <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHdlYiUyMGRldmVsb3BtZW50JTIwaW1hZ2VzfGVufDB8MHwwfHx8MA%3D%3D" alt="Card Image 3">
+          <div class="card-content">
+            <h3>My personal Portfolio website</h3>
+            <p>Some text content for card 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button type="button" class="btn btn-outline-danger">Demo</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-container">
+        <div class="skil hidden-element">
+          <h2>MY SKILLS</h2>
+        </div>
+        <div id="skills" style="background-color: #1a1a1a;">
+          <div class="skill-divs hidden-element">
+            <img src="html-5.png" alt="html icon">
+            <h5>HTML</h5>
+          </div>
+          <div class="skill-divs hidden-element">
+            <img src="css img.png" alt="html icon">
+            <h5>CSS</h5>
+          </div>
+          <div class="skill-divs hidden-element">
+            <img src="js img.png" alt="html icon">
+            <h5>JS</h5>
+          </div>
+          <div class="skill-divs hidden-element" >
+            <img src="bootstrap-logo-shadow.png" alt="html icon" height="600px">
+            <h5>BootStrap</h5>
+          </div>
+          <div class="skill-divs hidden-element">
+            <img src="tailwind.png" alt="html icon" height="600px">
+            <h5>Tailwind</h5>
+          </div>
+          <div class="skill-divs hidden-element">
+            <img src="react-js.png" alt="html icon" height="600px">
+            <h5>React</h5>
+          </div>
+          <div class="skill-divs hidden-element">
+            <img src="git.png" alt="html icon" height="600px">
+            <h5>Git source control</h5>
+          </div>
+          <div class="skill-divs hidden-element">
+            <img src="photoshop.png" alt="html icon" height="600px">
+            <h5>Photoshop</h5>
+          </div>
+        </div>
+      </div>
+    
+      <footer id="contact">
+        <div class="footer-container">
+          <div class="footer-section">
+            <h3>Contact Me</h3>
+            <p><a href="mailto:batturaviteja18@gmail.com" target="_blank">batturaviteja18@gmail.com</a></p>
+          </div>
+          
+          <div class="footer-section">
+
+            <ul>
+              <li><a href="https://twitter.com/battu_raviteja" target="_blank">Twitter</a></li>
+              <li><a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a></li>
+              <li><a href="https://www.instagram.com/im__ravi__18___/" target="_blank">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+        <div id="up-arrow" class="arrow">
+        <a href="#home">
+          <i class="fa-solid fa-angles-up"></i>
+        </a>
+        </div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+      <script src="script.js"></script>
+  </body>
+  </html>

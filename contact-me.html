@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact-me.css">
+    <title>Contact Me</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <p id="nameErr" class="err">please enter the name</p>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <p id="emailErr" class="err">Enter a valid email address</p>
+
+            <label for="message">Message:</label>
+            <textarea id="message"  rows="4" required></textarea>
+            <p id="msgErr" class="err">Please enter your message</p>
+
+            <button type="button" id="Submit" >Submit</button>
+        </form>
+
+    </div>
+
+    <script src="contact-me.js"></script>
+</body>
+</html>
